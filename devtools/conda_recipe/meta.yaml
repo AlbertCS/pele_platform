@@ -19,12 +19,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python=3.8
     - setuptools
 
   run:
     # Base dependencies
-    - python
+    - python=3.8
     - numpy
     - matplotlib
     - scipy
@@ -46,7 +46,6 @@ requirements:
     - hdbscan==0.8.27
     - mdtraj==1.9.5
     - seaborn
-    - satumut
     - pyparsing==2.4.7
     - tqdm
 

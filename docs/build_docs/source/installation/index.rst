@@ -3,7 +3,7 @@ Installation
 ============
 
 
-PELE Platform is shipped as a Conda package that can be installed using ``conda-forge``
+PELE Platform is shipped as a Conda package that can be installed using ``conda-forge``, ``eapm``
 and ``nostrumbiodiscovery`` channels from Anaconda.
 
 
@@ -41,7 +41,7 @@ Platform, please, follow the steps below:
     conda install -c conda-forge python=3.8
 
     # Install PELE Platform 1.6.3
-    conda install -c nostrumbiodiscovery -c conda-forge pele_platform=1.6.3
+    conda install -c eapm -c nostrumbiodiscovery -c conda-forge pele_platform=1.6.3
 
     # Export environment variables
     export PELE=/path/to/PELE-1.X/
