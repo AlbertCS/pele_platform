@@ -11,7 +11,6 @@ dependencies:
   - matplotlib
   - seaborn
   - scipy
-  - satumut
   - biopython
   - cython
   - pytest
@@ -19,6 +18,7 @@ dependencies:
   - pillow
   - fpdf
   - rdkit
+  - satumut==0.7.0
   - adaptive_pele==1.7.1
   - ploprottemp==1.0.1
   - scikit-learn>0.20
