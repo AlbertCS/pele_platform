@@ -21,4 +21,3 @@ Step by step guides to setting up your own simulation.
    pca/index.rst
    minimization/index.rst
    sidechain_perturbation/index.rst
-   saturated_mutagenesis/index.rst
