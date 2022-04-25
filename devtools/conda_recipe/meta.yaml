@@ -23,7 +23,7 @@ requirements:
     - setuptools
   run:
     # Base dependencies
-    - python=3.8
+    - python >=3.7,<3.9
     - numpy
     - matplotlib
     - scipy

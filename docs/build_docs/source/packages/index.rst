@@ -22,3 +22,4 @@ Step by step guides to setting up your own simulation.
    minimization/index.rst
    sidechain_perturbation/index.rst
    saturated_mutagenesis/index.rst
+   plurizymer/index.rst

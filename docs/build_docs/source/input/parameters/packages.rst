@@ -32,3 +32,7 @@ True. They are listed below:
       perturbation algorithm will run to perturb covalently bound non standard
       residues.
       More information `here <basic_parameters/sidechain_perturbation.html>`__.
+    - saturated_mutagenesis: for saturated mutations and analysis with PELE
+      More information `here <basic_parameters/saturated_mutagenesis.html>`__
+    - plurizymer: for saturated mutations in the active site
+      More information `here <basic_parameters/plurizymer.html`__
