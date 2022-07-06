@@ -1,7 +1,20 @@
 saturated_mutagenesis: true
-system: '../pele_platform/Examples/enzyme_engineering/pdb_files/*.pdb'
+singularity_exec: /home/albert/Program_Install/Pele/pele1.7.1_release.sif
+cpus: 4
+seed: 12345
+system: /home/albert/Documents/WP2/TestBiobbHub/modelle_re.pdb
 chain: 'L'
-resname: 'ANL'
-cpus_per_mutation: 2
-test: true
-equilibration: true
+resname: 'SUB'
+restart: true
+steps: 1
+traj: trajectory.xtc
+satumut_positions_mutations: ['A:297']
+atom_dist:
+  - 'C:1:C19'
+  - 'L:1:C8'
+cpus_per_mutation: 1
+satumut_mutation: ['ALA', 'VAL']
+templates:
+  - /home/albert/Documents/WP2/pele_module/biobb_pele-master/bin/test/data/pele/ndpz
+skip_ligand_prep:
+  - 'NDP'

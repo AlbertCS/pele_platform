@@ -69,10 +69,10 @@ class ParametersBuilder(object):
             pele_dir = os.path.abspath(args.folder)
 
         if (args.restart or args.adaptive_restart or args.only_analysis) and not os.path.exists(pele_dir):
-            raise OSError(f"Directory {pele_dir} was not found. Please ensure you set the correct path to the top level"
-                          f" directory, e.g. 'LIG_Pele' using the 'working_folder' flag when restarting or analysing "
+            """raise OSError(f"Directory {pele_dir} was not found. Please ensure you set the correct path to the top level"
+                         f" directory, e.g. 'LIG_Pele' using the 'working_folder' flag when restarting or analysing "
                           f"the simulation.")
-
+            """
         # Retrieve the specific args for adaptive
         specific_args = adaptive.retrieve_software_settings(args, pele_dir)
 
