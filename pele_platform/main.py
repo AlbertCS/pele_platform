@@ -97,7 +97,7 @@ if __name__ == "__main__":
     matplotlib.use("Agg")
 
     # Avoid Python2
-    from .Checker.python_version import check_python_version
+    from Checker.python_version import check_python_version
 
     check_python_version()
 
